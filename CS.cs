@@ -10,7 +10,7 @@ namespace ConsoleApp3
     {
         public string Name { get; set; }
         public uint Age { get; set; }
-        public uint Avg { get; set; }
+        public double Avg { get; set; }
         public void Print()
         {
             Console.WriteLine($"Name student: {Name}\nAge {Age}\nAvg {Avg}");

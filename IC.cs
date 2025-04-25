@@ -10,7 +10,7 @@ namespace ConsoleApp3
     {
         string NameC { get; set; }
         uint Hours { get; set; }
-        uint Desc { get; set; }
+        string Desc { get; set; }
         void PrintC();
     }
 }

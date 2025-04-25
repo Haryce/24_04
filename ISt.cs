@@ -6,7 +6,7 @@ namespace ConsoleApp3
     {
         string Name { get; set; }
         uint Age { get; set; }
-        uint Avg { get; set; }
+        double Avg { get; set; }
         void Print();
     }
 }
